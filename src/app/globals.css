@@ -18,49 +18,49 @@
   font-weight: 300;
   font-style: normal;
   font-display: swap;
-  src: url('/fonts/open-text/OPENText-Light.otf') format('opentype');
+  src: url('../../public/fonts/open-text/OPENText-Light.otf') format('opentype');
 }
 @font-face {
   font-family: 'OPEN Text';
   font-weight: 400;
   font-style: normal;
   font-display: swap;
-  src: url('/fonts/open-text/OPENText-Regular.otf') format('opentype');
+  src: url('../../public/fonts/open-text/OPENText-Regular.otf') format('opentype');
 }
 @font-face {
   font-family: 'OPEN Text';
   font-weight: 500;
   font-style: normal;
   font-display: swap;
-  src: url('/fonts/open-text/OPENText-Medium.otf') format('opentype');
+  src: url('../../public/fonts/open-text/OPENText-Medium.otf') format('opentype');
 }
 @font-face {
   font-family: 'OPEN Text';
   font-weight: 600;
   font-style: normal;
   font-display: swap;
-  src: url('/fonts/open-text/OPENText-Bold.otf') format('opentype');
+  src: url('../../public/fonts/open-text/OPENText-Bold.otf') format('opentype');
 }
 @font-face {
   font-family: 'OPEN Text';
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-  src: url('/fonts/open-text/OPENText-Bold.otf') format('opentype');
+  src: url('../../public/fonts/open-text/OPENText-Bold.otf') format('opentype');
 }
 @font-face {
   font-family: 'OPEN Text';
   font-weight: 800;
   font-style: normal;
   font-display: swap;
-  src: url('/fonts/open-text/OPENText-Bold.otf') format('opentype');
+  src: url('../../public/fonts/open-text/OPENText-Bold.otf') format('opentype');
 }
 @font-face {
   font-family: 'OPEN Text';
   font-weight: 900;
   font-style: normal;
   font-display: swap;
-  src: url('/fonts/open-text/OPENText-Bold.otf') format('opentype');
+  src: url('../../public/fonts/open-text/OPENText-Bold.otf') format('opentype');
 }
 
 /* ---- CSS VARIABLES ---- */
