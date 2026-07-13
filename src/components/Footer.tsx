@@ -32,7 +32,7 @@ export default function Footer() {
           <div className="lc-foot-logo" style={{ display: "flex", alignItems: "center", marginBottom: "16px" }}>
             <div style={{ background: "var(--white)", padding: "6px 12px", borderRadius: "8px", display: "inline-flex", alignItems: "center", boxShadow: "0 2px 8px rgba(0,0,0,0.1)" }}>
               <Image
-                src="/images/logo.png"
+                src={`${process.env.NODE_ENV === "production" ? "/i_lone_care" : ""}/images/logo.png`}
                 alt="iLoanCare Logo"
                 width={128}
                 height={30}

@@ -18,7 +18,7 @@ export default function Navbar() {
         {/* Logo */}
         <a href="#hero" className="lc-logo" aria-label="LoanCare Home" style={{ display: "flex", alignItems: "center" }}>
           <Image
-            src="/images/logo.png"
+            src={`${process.env.NODE_ENV === "production" ? "/i_lone_care" : ""}/images/logo.png`}
             alt="iLoanCare Logo"
             width={154}
             height={36}

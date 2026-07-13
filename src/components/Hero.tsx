@@ -96,7 +96,7 @@ export default function Hero() {
         <div className="lc-hero-img-wrap anim anim-left">
           <div className="hero-img-frame">
             <Image
-              src="/images/finance.png"
+              src={`${process.env.NODE_ENV === "production" ? "/i_lone_care" : ""}/images/finance.png`}
               alt="Loan approved cartoon illustration"
               width={500}
               height={520}
